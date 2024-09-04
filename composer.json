@@ -1,0 +1,30 @@
+{
+    "name": "leedch/message",
+    "type": "library",
+    "description": "Generate and deliver Messages for responses to users in UI",
+    "keywords": [
+        "leedch",
+        "message"
+    ],
+    "homepage": "https://github.com/leedave/message.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Lee",
+            "email": "leed@leed.ch",
+            "homepage": "https://www.leed.ch/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~8.0|~8.1|~8.2|~8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leedch\\Message\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
