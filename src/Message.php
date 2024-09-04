@@ -1,6 +1,6 @@
 <?php
 
-namespace Leedch\Leedch\Core;
+namespace Leedch\Message;
 
 /**
  * Store and output Feedback messages (errors, success, notice etc)
